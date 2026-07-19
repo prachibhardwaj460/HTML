@@ -1,0 +1,68 @@
+<!--Problem 12: Survey Form
+Description
+
+Create a survey form.
+
+Requirements
+
+Ask:
+
+Gender (Radio Buttons)
+Skills (Checkboxes)
+Branch (Dropdown)
+About Yourself (Textarea)
+Submit Button-->
+
+
+<h1>Survey Form</h1>
+
+    
+
+        <h3>Gender: </h3>
+
+        <input type="radio" value="Male" name="gender"> Male
+        <br>
+
+        <input type="radio" value="Female" name="gender"> Female
+        <br>
+
+        <input type="radio" value="Other" name="gender"> Other
+
+        <hr>
+
+        <h3>Skills: </h3>
+
+        <input type="checkbox" value="HTML" name="skill"> HTML
+        <br>
+
+        <input type="checkbox" value="CSS" name="skill"> CSS
+        <br>
+
+        <input type="checkbox" value="Python" name="skill"> Python
+
+        <hr>
+
+        <h3>Branch: </h3>
+
+        <select name="branch">
+            <option value="CSE">CSE</option>
+            <option value="IT">IT</option>
+            <option value="ECE">ECE</option>
+            <option value="ME">ME</option>
+        </select>
+
+        <hr>
+
+        <h3>About Yourself: </h3>
+
+        <textarea name="feedback" 
+        placeholder="Write something about yourself"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
